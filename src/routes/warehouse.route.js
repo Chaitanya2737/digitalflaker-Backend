@@ -3,7 +3,7 @@ const {
   getWarehouseData,
   addWarehouseData,
   editWarehouseData,
-} = require("../controller/Warehouse.controller");
+} = require("../controller/Warehouse.controller.js");
 const verifyToken = require("../middleware/auth.middleware");
 
 const WarehouseRouter = express.Router();
