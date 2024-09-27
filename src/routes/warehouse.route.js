@@ -1,8 +1,5 @@
 const express = require("express");
-const {
-  getWarehouseData,
-  addWarehouseData,
-  editWarehouseData,
+const { getWarehouseData, addWarehouseData, editWarehouseData,
 } = require("../controller/Warehouse.controller.js");
 const verifyToken = require("../middleware/auth.middleware");
 
